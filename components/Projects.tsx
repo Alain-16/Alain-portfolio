@@ -23,8 +23,8 @@ export default function Projects() {
           <span className="eyebrow">Selected Work</span>
           <h2>Impact at scale</h2>
           <p>
-            Production systems trusted by governments and healthcare providers — measured by the
-            workflows they replaced and the people they reach.
+            Production systems trusted by governments and healthcare providers
+            measured by the workflows they replaced and the people they reach.
           </p>
         </div>
 
@@ -36,9 +36,9 @@ export default function Projects() {
                 <span className="ctx">Government of Rwanda · NESA</span>
                 <h3>QAMIS — National Education Quality Assurance</h3>
                 <p className="desc">
-                  A nationwide quality-assurance platform that moved school inspections off paper
-                  and online — with offline-first sync so inspectors in rural areas keep working
-                  without connectivity.
+                  A nationwide quality-assurance platform that moved school
+                  inspections off paper and online — with offline-first sync so
+                  inspectors in rural areas keep working without connectivity.
                 </p>
                 <div className="metric-row">
                   <div className="metric">
@@ -79,11 +79,14 @@ export default function Projects() {
           <article className="card proj-featured tilt reveal" data-d="1">
             <div className="featured-inner">
               <div>
-                <span className="ctx">Government of Rwanda · Eastern Province</span>
+                <span className="ctx">
+                  Government of Rwanda · Eastern Province
+                </span>
                 <h3>Digital Situation Room</h3>
                 <p className="desc">
-                  Real-time governance dashboards unifying data across four administrative levels —
-                  giving leadership a single live view to make decisions on.
+                  Real-time governance dashboards unifying data across four
+                  administrative levels — giving leadership a single live view
+                  to make decisions on.
                 </p>
                 <div className="metric-row">
                   <div className="metric">
@@ -125,11 +128,14 @@ export default function Projects() {
           <article className="card proj-featured tilt reveal" data-d="2">
             <div className="featured-inner">
               <div>
-                <span className="ctx">Multi-Country · Botswana · Rwanda · Guatemala</span>
+                <span className="ctx">
+                  Multi-Country · Botswana · Rwanda · Guatemala
+                </span>
                 <h3>OpenMRS / Bahmni EMR</h3>
                 <p className="desc">
-                  Stood up electronic medical records from scratch — Pharmacy, LIMS, Billing and
-                  Imaging modules — migrating hundreds of patient records off paper.
+                  Stood up electronic medical records from scratch — Pharmacy,
+                  LIMS, Billing and Imaging modules — migrating hundreds of
+                  patient records off paper.
                 </p>
                 <div className="metric-row">
                   <div className="metric">
@@ -173,8 +179,9 @@ export default function Projects() {
                 <span className="ctx">Government of Rwanda</span>
                 <h3>School Accreditation Platform</h3>
                 <p className="desc">
-                  End-to-end digital accreditation with automated certificate issuance — replacing a
-                  slow, manual approval chain with a reliable pipeline.
+                  End-to-end digital accreditation with automated certificate
+                  issuance — replacing a slow, manual approval chain with a
+                  reliable pipeline.
                 </p>
                 <div className="metric-row">
                   <div className="metric">

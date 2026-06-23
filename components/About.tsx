@@ -1,42 +1,49 @@
 /* ============================================================
-   ABOUT (static markup + Three.js "AM" avatar client component)
+   ABOUT (headshot + bio)
    ============================================================ */
-import AboutAvatar from "./AboutAvatar";
+import Image from "next/image";
 
 export default function About() {
   return (
     <section className="section" id="about">
       <div className="wrap about-grid">
-        <div
-          className="brand-art reveal"
-          aria-label="Stylized AM monogram (placeholder for headshot)"
-        >
-          <AboutAvatar />
-          <div className="mono-big">AM</div>
-          <span className="corner tl">// based in kelowna, bc</span>
-          <span className="corner br">[ swap → headshot ]</span>
+        <div className="brand-art reveal" aria-label="Photo of Alain Mugisha">
+          <Image
+            src="/alain.jpeg"
+            alt="Alain Mugisha"
+            fill
+            sizes="(max-width: 900px) 380px, 40vw"
+            style={{ objectFit: "cover" }}
+            priority
+          />
         </div>
 
         <div className="about-bio">
           <span className="eyebrow reveal">About</span>
           <p className="lead reveal" data-d="1">
-            I&apos;m a full-stack developer who builds <b>mission-critical platforms</b> the public
-            sector and healthcare providers depend on every day.
+            I&apos;m a software engineer who builds{" "}
+            <b>mission-critical platforms</b> across different sectors that
+            professionals depend on every day.
           </p>
           <p className="reveal" data-d="2">
-            Over 3+ years I&apos;ve shipped production systems across 10+ countries — from national
-            education-governance platforms in Rwanda to multi-country EMR rollouts in Botswana,
-            Guatemala, and Sierra Leone. The thread through all of it: digitizing paper workflows,
-            making governance data-driven, and standing up healthcare infrastructure from scratch.
+            Over 3+ years I&apos;ve shipped production systems across 4+
+            countries from national education-governance platforms in Rwanda to
+            multi-country EMR rollouts in Rwanda, Botswana and Guatemala. The
+            thread through all of it: digitizing manual workflows, making
+            governance data-driven, standing up healthcare infrastructure from
+            scratch and Integrating AI to reduce human errors.
           </p>
           <p className="reveal" data-d="2">
-            Now in Kelowna pursuing a CS degree at UBC Okanagan, I&apos;m bringing that
-            international, high-stakes production experience into the Canadian tech market.
+            Now base in canada, I&apos;m bringing that international,
+            high-stakes production experience into the Canadian tech market.
           </p>
 
           <div className="badges reveal" data-d="3">
             <span className="badge">
-              <span className="b-dot"></span> UBC Okanagan — BSc Computer Science
+              <span className="b-dot"></span> UBC | BSc Computer Science
+            </span>
+            <span className="badge">
+              <span className="b-dot"></span> AWS Solution Architect
             </span>
             <span className="badge">
               <span className="b-dot"></span> IBM Certified
@@ -44,15 +51,12 @@ export default function About() {
             <span className="badge">
               <span className="b-dot"></span> Microsoft Azure
             </span>
-            <span className="badge">
-              <span className="b-dot"></span> NPower Canada
-            </span>
           </div>
 
           <div className="about-meta reveal" data-d="3">
             <div>
               <span className="k">Based in</span>
-              <span className="v">Kelowna, BC 🇨🇦</span>
+              <span className="v">Canada, BC 🇨🇦</span>
             </div>
             <div>
               <span className="k">Experience</span>

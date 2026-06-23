@@ -17,14 +17,16 @@ export default function Hero() {
           <span className="hl">systems people actually use.</span>
         </h1>
         <p className="hero-lead">
-          I turn complex workflows into <b>reliable platforms</b>, <b>backend
-          systems</b>, <b>business-insight dashboards</b> and <b>AI systems</b>.
+          I turn complex workflows into <b>reliable platforms</b>,{" "}
+          <b>backend systems</b>, <b>business-insight dashboards</b> and{" "}
+          <b>AI systems</b>.
         </p>
         <div className="sub">
-          <span>Full-Stack Developer</span>
+          <span>Software Engineer</span>
           <span>Healthcare IT</span>
           <span>Government Platforms</span>
           <span>Data Systems</span>
+          <span>AI Systems</span>
         </div>
         <div className="hero-cta">
           <a href="#projects" className="btn btn-primary">
@@ -62,7 +64,7 @@ export default function Hero() {
         <div className="wrap">
           <div className="stat">
             <b>
-              <em>10+</em>
+              <em>4+</em>
             </b>
             <span className="lbl">Countries</span>
           </div>
