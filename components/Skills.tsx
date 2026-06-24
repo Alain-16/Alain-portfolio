@@ -8,22 +8,24 @@ export default function Skills() {
         <div className="section-head reveal">
           <span className="eyebrow">Tech Stack</span>
           <h2>The tools behind the systems</h2>
-          <p>Hover a skill to highlight the projects that put it into production.</p>
+          <p>
+            However, The tech industry keeps bringing new tools thats why
+            fast-learner is in my blood.
+          </p>
         </div>
 
         <div className="skill-groups" id="skillGroups">
           <div className="skill-cat reveal">
             <h4>
-              Languages <span className="n">04</span>
+              Languages <span className="n">01</span>
             </h4>
             <div className="chips">
               <span className="chip" data-proj="dsr">
-                Ruby
+                Java
               </span>
-              <span className="chip">JavaScript</span>
-              <span className="chip">TypeScript</span>
-              <span className="chip">Java</span>
               <span className="chip">Python</span>
+              <span className="chip">C#</span>
+              <span className="chip">Typescript</span>
             </div>
           </div>
 
@@ -33,15 +35,15 @@ export default function Skills() {
             </h4>
             <div className="chips">
               <span className="chip" data-proj="dsr">
-                Ruby on Rails
+                Springboot
               </span>
-              <span className="chip">Node.js</span>
+              <span className="chip">Django</span>
               <span className="chip" data-proj="emr">
-                REST APIs
+                FastAPI
               </span>
-              <span className="chip">Spring</span>
+
               <span className="chip" data-proj="emr">
-                Multi-Tenant Arch
+                .NET
               </span>
             </div>
           </div>
@@ -53,9 +55,6 @@ export default function Skills() {
             <div className="chips">
               <span className="chip">React</span>
               <span className="chip">Next.js</span>
-              <span className="chip" data-proj="qamis">
-                Custom Dashboards
-              </span>
               <span className="chip">Tailwind CSS</span>
             </div>
           </div>
@@ -68,7 +67,7 @@ export default function Skills() {
               <span className="chip">PostgreSQL</span>
               <span className="chip">MySQL</span>
               <span className="chip" data-proj="dsr">
-                Elasticsearch
+                No-SQL database
               </span>
             </div>
           </div>
@@ -79,9 +78,10 @@ export default function Skills() {
             </h4>
             <div className="chips">
               <span className="chip">Docker</span>
-              <span className="chip">Azure</span>
+              <span className="chip">AWS cloud</span>
               <span className="chip">Linux</span>
               <span className="chip">CI/CD</span>
+              <span className="chip">Ansible</span>
             </div>
           </div>
 
@@ -91,51 +91,40 @@ export default function Skills() {
             </h4>
             <div className="chips">
               <span className="chip" data-proj="dsr">
-                DHIS2
+                Pandas
               </span>
               <span className="chip" data-proj="dsr">
-                Logstash
+                Numpy
               </span>
               <span className="chip" data-proj="dsr">
-                Kibana
+                PowerBI
               </span>
               <span className="chip" data-proj="qamis">
-                KPI Engines
+                ETL data pipelines
+              </span>
+              <span className="chip" data-proj="qamis">
+                DAX
               </span>
             </div>
           </div>
 
           <div className="skill-cat reveal">
             <h4>
-              Healthcare Systems <span className="n">04</span>
+              AI ecosystems <span className="n">04</span>
             </h4>
             <div className="chips">
               <span className="chip" data-proj="emr">
-                OpenMRS
+                LangGraph
               </span>
               <span className="chip" data-proj="emr">
-                Bahmni
+                Anthropic SDK
               </span>
               <span className="chip" data-proj="emr">
-                LIMS
+                Vectors | embeddings
               </span>
               <span className="chip" data-proj="emr">
-                HL7 / FHIR
+                RAG
               </span>
-            </div>
-          </div>
-
-          <div className="skill-cat reveal" data-d="1">
-            <h4>
-              Methods <span className="n">04</span>
-            </h4>
-            <div className="chips">
-              <span className="chip" data-proj="qamis">
-                Offline-First
-              </span>
-              <span className="chip">Agile</span>
-              <span className="chip">System Design</span>
-              <span className="chip">Data Migration</span>
             </div>
           </div>
         </div>

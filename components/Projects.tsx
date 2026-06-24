@@ -3,6 +3,9 @@
    ============================================================ */
 import Image from "next/image";
 
+const GITHUB_URL =
+  "https://github.com/Alain-16?tab=overview&from=2026-06-01&to=2026-06-23";
+
 function ViewArrow() {
   return (
     <svg width="15" height="15" viewBox="0 0 16 16" fill="none">
@@ -66,12 +69,17 @@ export default function Projects() {
                   <span className="pill">Python|FastAPI</span>
                   <span className="pill">LangGraph</span>
                   <span className="pill">NextJS</span>
-                  <span className="pill">NextJS</span>
+
                   <span className="pill">Anthropic SDK</span>
                 </div>
-                <span className="view">
+                <a
+                  className="view"
+                  href={GITHUB_URL}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   View details <ViewArrow />
-                </span>
+                </a>
               </div>
               <div className="featured-visual has-img">
                 <Image
@@ -118,9 +126,14 @@ export default function Projects() {
                   <span className="pill">Automated Certs</span>
                   <span className="pill">NextJS</span>
                 </div>
-                <span className="view">
+                <a
+                  className="view"
+                  href={GITHUB_URL}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   View details <ViewArrow />
-                </span>
+                </a>
               </div>
               <div className="featured-visual has-img">
                 <Image
@@ -169,9 +182,14 @@ export default function Projects() {
                   <span className="pill">KPI Engine</span>
                   <span className="pill">Offline-First Sync</span>
                 </div>
-                <span className="view">
+                <a
+                  className="view"
+                  href={GITHUB_URL}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   View details <ViewArrow />
-                </span>
+                </a>
               </div>
               <div className="featured-visual">
                 <Image
@@ -223,9 +241,14 @@ export default function Projects() {
                   <span className="pill">Logstash</span>
                   <span className="pill">Kibana</span>
                 </div>
-                <span className="view">
+                <a
+                  className="view"
+                  href={GITHUB_URL}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   View details <ViewArrow />
-                </span>
+                </a>
               </div>
               <div className="featured-visual">
                 <Image
@@ -248,8 +271,8 @@ export default function Projects() {
                 </span>
                 <h3>OpenMRS / Bahmni EMR</h3>
                 <p className="desc">
-                  Stood up electronic medical records from scratch — Pharmacy,
-                  LIMS, Billing and Imaging modules — migrating hundreds of
+                  Stood up electronic medical records from scratch Pharmacy,
+                  LIMS, Billing and Imaging modules migrating hundreds of
                   patient records off paper.
                 </p>
                 <div className="metric-row">
@@ -276,9 +299,14 @@ export default function Projects() {
                   <span className="pill">REST APIs</span>
                   <span className="pill">Multi-Tenant</span>
                 </div>
-                <span className="view">
+                <a
+                  className="view"
+                  href={GITHUB_URL}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   View details <ViewArrow />
-                </span>
+                </a>
               </div>
               <div className="featured-visual">
                 <Image

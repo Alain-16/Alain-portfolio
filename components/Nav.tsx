@@ -8,9 +8,7 @@ export default function Nav() {
         <div className="wrap">
           <a className="logo" href="#top" aria-label="Alain Mugisha home">
             <span className="mono-mark">AM</span>
-            <span className="logo-name">
-              Alain Mugisha <span>/ Full-Stack</span>
-            </span>
+            <span className="logo-name">Alain Mugisha</span>
           </a>
           <div className="nav-links">
             <a href="#about">About</a>

@@ -39,20 +39,6 @@ export default function SiteEffects() {
       cleanups.push(() => links.forEach((a) => a.removeEventListener("click", closeMenu)));
     }
 
-    /* ---------- Resume button (placeholder) ---------- */
-    const resumeBtn = document.getElementById("resumeBtn");
-    const onResume = (e: Event) => {
-      e.preventDefault();
-      const svg = resumeBtn?.querySelector("svg") as SVGElement | null;
-      if (!svg) return;
-      svg.style.transform = "translateY(2px)";
-      setTimeout(() => (svg.style.transform = ""), 250);
-    };
-    if (resumeBtn) {
-      resumeBtn.addEventListener("click", onResume);
-      cleanups.push(() => resumeBtn.removeEventListener("click", onResume));
-    }
-
     /* ---------- Scroll reveal ---------- */
     const reveals = Array.from(document.querySelectorAll<HTMLElement>(".reveal"));
     if (reduce || !("IntersectionObserver" in window)) {

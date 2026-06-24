@@ -9,15 +9,21 @@ export default function ImpactMap() {
           <span className="eyebrow">Impact Across Borders</span>
           <h2>Where I&apos;ve built</h2>
           <p>
-            Production systems delivered across three continents — government, healthcare and
-            education, shipped where connectivity and stakes are real.
+            Production systems delivered across three continents government,
+            healthcare and education, shipped where connectivity and stakes are
+            real.
           </p>
         </div>
 
         <div className="impact-layout reveal" data-d="1">
           {/* desktop interactive map */}
           <div className="map-panel" id="mapPanel" aria-hidden="true">
-            <svg className="map-arcs" viewBox="0 0 1000 500" preserveAspectRatio="none" fill="none">
+            <svg
+              className="map-arcs"
+              viewBox="0 0 1000 500"
+              preserveAspectRatio="none"
+              fill="none"
+            >
               <g stroke="var(--teal)" strokeWidth="1.4" strokeLinecap="round">
                 <path className="arc" d="M180,150 Q330,40 560,290" />
                 <path className="arc" d="M180,150 Q200,210 260,260" />
@@ -26,7 +32,11 @@ export default function ImpactMap() {
               </g>
             </svg>
 
-            <button className="pin" data-country="canada" style={{ left: "18%", top: "30%" }}>
+            <button
+              className="pin"
+              data-country="canada"
+              style={{ left: "18%", top: "30%" }}
+            >
               <span className="pin-dot"></span>
               <span className="pin-ring"></span>
               <span className="pin-label">Canada</span>
@@ -42,12 +52,17 @@ export default function ImpactMap() {
                   <span className="st edu">Education</span>
                 </span>
                 <span className="pc-metric">
-                  Bringing international production experience to the Canadian market
+                  Bringing international production experience to the Canadian
+                  market
                 </span>
               </span>
             </button>
 
-            <button className="pin" data-country="guatemala" style={{ left: "26%", top: "52%" }}>
+            <button
+              className="pin"
+              data-country="guatemala"
+              style={{ left: "26%", top: "52%" }}
+            >
               <span className="pin-dot"></span>
               <span className="pin-ring"></span>
               <span className="pin-label">Guatemala</span>
@@ -90,7 +105,11 @@ export default function ImpactMap() {
               </span>
             </button>
 
-            <button className="pin" data-country="botswana" style={{ left: "54%", top: "70%" }}>
+            <button
+              className="pin"
+              data-country="botswana"
+              style={{ left: "54%", top: "70%" }}
+            >
               <span className="pin-dot"></span>
               <span className="pin-ring"></span>
               <span className="pin-label">Botswana</span>

@@ -3,6 +3,10 @@
    ============================================================ */
 import HeroGlobe from "./HeroGlobe";
 
+// Google Drive "Anyone with the link" share URL for the resume.
+// Replace FILE_ID with the id from your Drive share link.
+const RESUME_URL = "https://drive.google.com/file/d/FILE_ID/view?usp=sharing";
+
 export default function Hero() {
   return (
     <header className="hero" id="top">
@@ -41,7 +45,13 @@ export default function Hero() {
               />
             </svg>
           </a>
-          <a href="#" className="btn btn-ghost" id="resumeBtn">
+          <a
+            href="https://drive.google.com/file/d/1X8YN9WkWmRCamZByEXmOMVsa0YTlCnav/view?usp=sharing"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn btn-ghost"
+            id="resumeBtn"
+          >
             <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
               <path
                 d="M8 2v8m0 0L5 7m3 3l3-3M3 13h10"
@@ -51,7 +61,7 @@ export default function Hero() {
                 strokeLinejoin="round"
               />
             </svg>
-            Download Resume
+            View Resume
           </a>
         </div>
       </div>
