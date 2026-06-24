@@ -677,12 +677,27 @@ body.menu-open .mobile-menu {
   text-shadow: 0 0 40px rgba(59, 172, 182, .35);
 }
 
+.brand-art img {
+  z-index: 0;
+}
+
+.brand-art::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  pointer-events: none;
+  background: linear-gradient(160deg, transparent 48%, rgba(13, 13, 13, .5));
+}
+
 .brand-art .corner {
   position: absolute;
+  z-index: 2;
   font-family: var(--mono);
   font-size: 11px;
   color: var(--faint);
   letter-spacing: .1em;
+  text-shadow: 0 1px 6px rgba(0, 0, 0, .6);
 }
 
 .brand-art .corner.tl {
@@ -972,6 +987,23 @@ body.menu-open .mobile-menu {
   background: rgba(59, 172, 182, .08);
   letter-spacing: .1em;
   text-transform: uppercase;
+  z-index: 2;
+}
+
+/* featured visuals that hold a real screenshot */
+.featured-visual.has-img {
+  background: var(--surface);
+}
+.featured-visual.has-img img {
+  z-index: 0;
+}
+.featured-visual.has-img::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  pointer-events: none;
+  background: linear-gradient(160deg, transparent 55%, rgba(13, 13, 13, .45));
 }
 
 /* ============================================================
