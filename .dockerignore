@@ -1,0 +1,28 @@
+  node_modules
+  .next
+  out
+  build
+
+  # ── Version control & docs ───────────────────────────────────
+  .git
+  .gitignore
+  README.md
+
+  # ── Local tooling / editor cruft ─────────────────────────────
+  .qodo
+  .claude
+  .vscode
+  *.log
+  npm-debug.log*
+
+  # ── Secrets & local env ──────────────────────────────────────
+  # NEXT_PUBLIC_CAL_LINK is passed as a build ARG instead (Block 2),
+  # so the env files never need to enter the image.
+  .env
+  .env.*
+
+  # ── Docker files themselves ──────────────────────────────────
+  # No need to ship them into the build context.
+  Dockerfile
+  .dockerignore
+  docker-compose.yml
