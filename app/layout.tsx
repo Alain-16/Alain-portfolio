@@ -1,17 +1,59 @@
 import type { Metadata } from "next";
-import { Outfit, JetBrains_Mono } from "next/font/google";
+import localFont from "next/font/local"; // default import, not { ... }
 import "./globals.css";
 
-const outfit = Outfit({
+const outfit = localFont({
   variable: "--font-outfit",
-  subsets: ["latin"],
-  weight: ["400", "500", "600", "700", "800"],
+  display: "swap", // show fallback text immediately, swap when font loads
+  src: [
+    {
+      path: "./fonts/outfit-v15-latin-regular.woff2",
+      weight: "400",
+      style: "normal",
+    },
+    {
+      path: "./fonts/outfit-v15-latin-500.woff2",
+      weight: "500",
+      style: "normal",
+    },
+    {
+      path: "./fonts/outfit-v15-latin-600.woff2",
+      weight: "600",
+      style: "normal",
+    },
+    {
+      path: "./fonts/outfit-v15-latin-700.woff2",
+      weight: "700",
+      style: "normal",
+    },
+    {
+      path: "./fonts/outfit-v15-latin-800.woff2",
+      weight: "800",
+      style: "normal",
+    },
+  ],
 });
 
-const jetbrainsMono = JetBrains_Mono({
+const jetbrainsMono = localFont({
   variable: "--font-jetbrains",
-  subsets: ["latin"],
-  weight: ["400", "500", "600"],
+  display: "swap",
+  src: [
+    {
+      path: "./fonts/jetbrains-mono-v24-latin-regular.woff2",
+      weight: "400",
+      style: "normal",
+    },
+    {
+      path: "./fonts/jetbrains-mono-v24-latin-500.woff2",
+      weight: "500",
+      style: "normal",
+    },
+    {
+      path: "./fonts/jetbrains-mono-v24-latin-600.woff2",
+      weight: "600",
+      style: "normal",
+    },
+  ],
 });
 
 export const metadata: Metadata = {

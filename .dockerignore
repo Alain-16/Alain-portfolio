@@ -23,6 +23,6 @@
 
   # ── Docker files themselves ──────────────────────────────────
   # No need to ship them into the build context.
-  Dockerfile
+
   .dockerignore
   docker-compose.yml
